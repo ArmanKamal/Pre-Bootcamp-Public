@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 970px;
+
+}
+
+header{
+    display: flex;
+    width: 940px;
+    height: 30px;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+
+.main-content{
+    background: linear-gradient(90deg, rgba(29,12,17,1) 0%, rgba(111,89,100,1) 35%, rgba(64,46,53,1) 100%);
+    width: 940px;
+    padding: 20px 20px;
+    width: 929px;
+    height: 870px;
+   
+}
+
+.main-content img{
+    width: 400px;
+    margin-bottom: 20px;
+    height: auto;
+    border: 5px solid #7d7377;
+}
+
+.main-content .about_section{
+    width: 500px;
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    display: inline-block;
+    vertical-align: top;
+    height: 280px;
+}
+.main-content .about_section h2{
+    padding: 5px 10px;
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+    color: white;
+}
+.main-content p{
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.main-content a{
+    padding-left: 10px;
+    color: black;
+}
+
+.main-card{
+    width: 300px;
+    height: 580px;
+    display:inline-block;
+    background-color: lightgray;
+    vertical-align: top;
+    background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+}
+
+.main-card img, .main-card ul{
+    width: 300px;
+    margin: 0;
+}
+
+.main-card h2{
+    width: 280px;
+    padding: 5px 10px;
+    color: white;
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+}
+.main-card img{
+    border: none;
+}
+
+.tech{
+    padding: 15px 0 0 10px;
+}
+
+.tech li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.tech img{
+    width: 40px;
+}
+
+.main-card button{
+    background: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 100px;
+    font-weight: 900;
+}
+
+footer{
+    width: 968px;
+    height: 50px;
+    background: #f9f9f9;
+}
+footer p{
+    margin: auto;
+    width: 250px;
+}
+footer ul{
+    width: 380px;
+    margin: auto;
+}
+footer ul li{
+    display: inline-block;
+
+}
+footer img{
+    width: 25px;
+    height: auto;
+    margin: auto;
+}

@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+.wrapper{
+    max-width: 970px;
+    background-image: linear-gradient(#1E4260, #2B5B84);
+    min-height: 800px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.header img {
+    height: 100px;
+
+}
+
+.search-form p{
+    color: white;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.search-form p a{
+    color: #FFE075;
+}
+
+.search-form form{
+    background-color: rgb(68,68,68);
+    padding: 10px 40px 10px 40px;
+    border:1px solid rgb(68,68,68);
+    border-radius: 5px;
+}
+
+.search-form form input{
+    width: 140px;
+    height: 30px;
+    text-align: center;
+}
+
+.search-form form  button{
+    background-color: #2B5B84;
+    width: 40px;
+    color: white;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+
+.navigation{
+    display: flex;
+    background-color: rgb(51,109,158);
+    padding: 10px;
+    width: 800px;
+    border-radius: 3px;
+    list-style-type: none;
+    margin-left: 80px;
+    box-shadow: 2px 2px 1px black;
+
+}
+
+
+.navigation li a{
+    margin: 20px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.main-content{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.main-content .side-nav{
+    text-align: center;
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.main-content .side-nav li{
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+
+.main-content .side-nav li a{
+    color: white;
+ 
+}
+
+.main-content .content-info{
+    width: 565px;
+    margin-right: 50px;
+
+}
+
+.content-info p{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.para-cent{
+   
+}
+
+.content-info h3{
+    color: #FFD343;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.content-info h3,h4{
+    text-align: center;
+}
+
+.content-info h4{
+    color: white;
+}
+
+.fa-angle-double-right{
+    color: #FFD343;
+    margin-right: 4px;
+    font-size: 8px;
+}
+
+.guide-section{
+    display: flex;
+    justify-content: center; 
+    background-color: white;
+    min-height: 300px;
+}
+
+.card{
+    margin: 20px;
+    width: 420px;
+    border-top: 4px solid #75A8D3;
+ 
+}
+
+.card h4{
+    margin-top: 5px;
+ 
+}
+
+.card p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.card ul{
+    text-align: center;
+    list-style-type: square;
+
+}
+
+.card ul li a{
+    text-decoration: none;
+    color:#89B4D9;
+    font-size: 14px;
+}
+
+.footer{
+    min-height: 60px;
+    
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 50px;
+    
+}
+.footer-list li{
+    color: #89AABA;
+    margin-right:20px;
+
+}
+
+.footer p{
+    color: #89B4D9;
+    margin-top: 15px;
+    font-size: 10px;
+    text-align: center;
+}
